@@ -2,7 +2,7 @@
 /**
  * Business Pro Theme
  *
- * This file adds the front page to the Business Pro Theme.
+ * This file adds the front page to the Business Pro Theme
  *
  * @package   BusinessProTheme
  * @link      https://seothemes.com/themes/business-pro
