@@ -190,7 +190,7 @@ function business_scripts_styles() {
 	wp_dequeue_style( 'simple-social-icons-font' );
 
 	// Enqueue Google fonts.
--	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato|Oswald', array(), CHILD_THEME_VERSION );
+-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,600', array(), CHILD_THEME_VERSION );
 
 	// Get Icon Widget plugin settings.
 	$icon_settings = get_option( 'icon_widget_settings' );

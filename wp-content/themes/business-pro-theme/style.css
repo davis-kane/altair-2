@@ -692,7 +692,7 @@ h4,
 h5,
 h6 {
 	font-family: 'Oswald', sans-serif;
-	font-weight: 500;
+	font-weight: 600;
 	line-height: 1.2;
 	margin: 0 0 0.382em;
 }
@@ -1441,10 +1441,11 @@ img.alignright,
 --------------------------------------------- */
 .menu {
 	width: 100%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	font-size: 1.8rem;
+	text-transform: uppercase;
 	line-height: 1;
 	text-align: center;
 	display: -webkit-box;
@@ -4181,10 +4182,10 @@ p.demo_store {
 		-webkit-flex-direction: row;
 		    -ms-flex-direction: row;
 		        flex-direction: row;
-		-webkit-box-pack: end;
-		-webkit-justify-content: flex-end;
-		-ms-flex-pack: end;
-		        justify-content: flex-end;
+		-webkit-box-pack: start;
+		-webkit-justify-content: flex-start;
+		-ms-flex-pack: start;
+		        justify-content: flex-start;
 		padding: 0;
 	}
 	.menu-toggle {
