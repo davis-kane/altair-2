@@ -47,14 +47,18 @@
     }
     .widget {
         @include breakpoint(sm) {
-            max-width: map-get($breakpoints, sm);
-            margin-left: auto;
+            max-width: map-get($breakpoints, xs);
+            margin-left: 10vh;
             margin-right: auto;
         }
         &:first-of-type {
             padding-top: 5vh;
         }
         .widget-wrap {
+          background-color: rgba(0, 0, 0, 0.76);
+          padding: 30px;
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.22);
+          border: 1px solid #fff;
             p {
                 color: $border;
                 margin-bottom: 1.618em;
