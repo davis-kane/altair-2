@@ -2760,6 +2760,11 @@ p.demo_store {
 	margin-bottom: 1.618em;
 }
 
+.front-page-1 .widget img {
+	height: 160px;
+	margin: 0 auto;
+}
+
 /* ### Front Page 2 */
 .front-page-2 {
 	text-align: center;

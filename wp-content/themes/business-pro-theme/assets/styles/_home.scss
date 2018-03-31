@@ -64,6 +64,10 @@
                 margin-bottom: 1.618em;
             }
         }
+        img {
+        	height: 160px;
+        	margin: 0 auto;
+        }
     }
     h1 {
         @include breakpoint(xs) {
