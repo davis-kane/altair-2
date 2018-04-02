@@ -256,3 +256,11 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Front Page 7', 'business-pro-theme' ),
 	'description'   => __( 'Front page widget - 7', 'business-pro-theme' ),
 ) );
+
+// Change the footer text
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_filter' );
+function sp_footer_creds_filter( $creds ) {
+	$creds = '[footer_copyright] | <a href="'.get_bloginfo( 'url' ).'">'.get_bloginfo( 'name' ).'</a>';
+
+	return $creds;
+}
