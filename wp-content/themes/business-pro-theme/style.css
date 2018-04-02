@@ -1237,6 +1237,7 @@ img.alignright,
 
 .has-fixed-header .site-header {
 	position: fixed;
+	background-color: #232c39;
 }
 
 .has-fixed-header .site-header.shrink {

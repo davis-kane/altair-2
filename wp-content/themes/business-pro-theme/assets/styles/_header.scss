@@ -8,6 +8,7 @@
     @include transition;
     .has-fixed-header & {
         position: fixed;
+        background-color: #232c39;
         &.shrink {
             background-color: $dark;
             box-shadow: 0 0 2rem rgba($dark,0.2);
