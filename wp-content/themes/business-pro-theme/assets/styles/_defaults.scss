@@ -177,6 +177,12 @@ input[type="radio"] {
 
 input[type="search"] {
     -webkit-appearance: none;
+    padding: 0.2em .5em;
+    background-color: rgba(255,255,255, 0.4);
+    color: #000;
+    list-style: 1.8;
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+    font-size: 0.7em;
 }
 
 ::-moz-placeholder {

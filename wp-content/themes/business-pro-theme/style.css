@@ -729,7 +729,7 @@ select,
 textarea {
 	background-color: #ffffff;
 	border: 2px solid #f0f1f2;
-	border-radius: 4px;
+	border-radius: 2px;
 	padding: 0.5em 1em;
 	width: 100%;
 	line-height: 2;
@@ -756,6 +756,12 @@ input[type='radio'] {
 
 input[type='search'] {
 	-webkit-appearance: none;
+	padding: 0.2em 0.5em;
+	background-color: rgba(255, 255, 255, 0.4);
+	color: #000000;
+	list-style: 1.8;
+	border: 1px rgba(255, 255, 255, 0.2) solid;
+	font-size: 0.7em;
 }
 
 ::-moz-placeholder {
@@ -774,7 +780,7 @@ input[type='reset'],
 input[type='submit'] {
 	background-color: #232c39;
 	border: 0;
-	border-radius: 4px;
+	border-radius: 2px;
 	color: #ffffff;
 	cursor: pointer;
 	font-family: 'Oswald', sans-serif;
@@ -1039,7 +1045,7 @@ th {
 	height: auto;
 	width: 100%;
 	display: block;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .gallery-caption {
@@ -1119,7 +1125,7 @@ th {
 	right: 12px;
 	right: 1.2rem;
 	top: 12px;
-	top: 1.2rem;
+	top: .5rem;
 	font-size: 20px;
 	font-size: 2rem;
 	pointer-events: none;
@@ -1237,7 +1243,7 @@ img.alignright,
 
 .has-fixed-header .site-header {
 	position: fixed;
-	background-color: #232c39;
+	background-color: rgba(35, 44, 57, 0.9);
 }
 
 .has-fixed-header .site-header.shrink {
@@ -1497,7 +1503,7 @@ img.alignright,
 .menu-item.button > a > span {
 	background-color: #fb2056;
 	padding: 1em 2em;
-	border-radius: 4px;
+	border-radius: 2px;
 	color: #ffffff;
 	margin-top: 1em;
 	display: block;
@@ -1679,7 +1685,7 @@ img.alignright,
 	margin-left: 0.236em;
 	margin-top: 7px;
 	margin-top: 0.7rem;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .menu-toggle span::before,
@@ -1691,7 +1697,7 @@ img.alignright,
 	height: 2px;
 	height: 0.2rem;
 	background-color: #ffffff;
-	border-radius: 4px;
+	border-radius: 2px;
 	content: ' ';
 }
 
@@ -1844,7 +1850,7 @@ img.alignright,
 	padding: 1rem 2rem;
 	border: 2px solid #f0f1f2;
 	margin-top: 1em;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .entry-content > *:last-child {
@@ -1968,7 +1974,7 @@ p.entry-meta {
 	font-size: 1.6rem;
 	padding: 7.5px 10px;
 	padding: 0.75rem 1rem;
-	border-radius: 4px;
+	border-radius: 2px;
 	text-decoration: none;
 	display: block;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
@@ -2191,7 +2197,7 @@ p.entry-meta {
 	bottom: 20px;
 	bottom: 2rem;
 	background-color: rgba(255, 255, 255, 0.1);
-	border-radius: 4px;
+	border-radius: 2px;
 	width: 30px;
 	width: 3rem;
 	height: 30px;
@@ -2842,7 +2848,7 @@ p.demo_store {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 27px 40px -20px rgba(35, 44, 57, 0.11);
-	border-radius: 4px;
+	border-radius: 2px;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 }
@@ -2905,7 +2911,7 @@ p.demo_store {
 
 .front-page-3 img {
 	min-width: 100%;
-	border-radius: 4px 4px 0 0;
+	border-radius: 2px 2px 0 0;
 }
 
 .front-page-3 .more-link {
@@ -2918,7 +2924,7 @@ p.demo_store {
 	margin-top: 1em;
 	width: auto;
 	background-color: #232c39;
-	border-radius: 4px;
+	border-radius: 2px;
 	color: #ffffff;
 	text-decoration: none;
 	box-shadow: 0 27px 40px -20px rgba(35, 44, 57, 0.22);
@@ -3135,7 +3141,7 @@ p.demo_store {
 
 .front-page-5 .listing-item {
 	position: relative;
-	border-radius: 4px;
+	border-radius: 2px;
 	padding: 0;
 	margin-bottom: 30px;
 	margin-bottom: 3rem;
@@ -3160,7 +3166,7 @@ p.demo_store {
 
 .front-page-5 .listing-item:before {
 	opacity: 0.1;
-	border-radius: 4px;
+	border-radius: 2px;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 }
@@ -3185,7 +3191,7 @@ p.demo_store {
 }
 
 .front-page-5 .image img {
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .front-page-5 .title {
@@ -3231,7 +3237,7 @@ p.demo_store {
 .front-page-6 .clone .wrap {
 	background-color: #ffffff;
 	padding: 2em 2em 2.4em;
-	border-radius: 4px;
+	border-radius: 2px;
 	box-shadow: 0 2rem 2rem -1rem rgba(35, 44, 57, 0.05);
 	clear: both;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
@@ -3351,7 +3357,7 @@ p.demo_store {
 	margin-bottom: 20px;
 	margin-bottom: 2rem;
 	box-shadow: 0 2rem 2rem -1rem rgba(35, 44, 57, 0.1);
-	border-radius: 4px;
+	border-radius: 2px;
 	position: relative;
 }
 
@@ -3370,7 +3376,7 @@ p.demo_store {
 
 .portfolio-item:before {
 	opacity: 0.1;
-	border-radius: 4px;
+	border-radius: 2px;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 }
@@ -3394,7 +3400,7 @@ p.demo_store {
 }
 
 .portfolio-item img {
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .portfolio-item .entry-title {
@@ -3438,7 +3444,7 @@ p.demo_store {
 
 .archive.genesis-pro-portfolio .entry:before {
 	opacity: 0.1;
-	border-radius: 4px;
+	border-radius: 2px;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 }
@@ -3466,7 +3472,7 @@ p.demo_store {
 }
 
 .archive.genesis-pro-portfolio .entry img {
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .archive.genesis-pro-portfolio .entry .entry-title {
@@ -3519,7 +3525,7 @@ p.demo_store {
 	margin-bottom: 3rem;
 	box-shadow: 0 1rem 2rem -1rem rgba(35, 44, 57, 0.1);
 	background-color: #ffffff;
-	border-radius: 4px;
+	border-radius: 2px;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 }
@@ -3569,13 +3575,13 @@ p.demo_store {
 .blog .entry-image-link img,
 .archive .entry-image-link img,
 .page-template-page_blog .entry-image-link img {
-	border-radius: 4px 4px 0 0;
+	border-radius: 2px 2px 0 0;
 }
 
 /* ### Column Examples */
 .columns div {
 	background-color: #f6f7f8;
-	border-radius: 4px;
+	border-radius: 2px;
 	margin-bottom: 2.5641%;
 	text-align: center;
 	text-transform: capitalize;
@@ -3776,7 +3782,7 @@ p.demo_store {
 		top: 42px;
 	}
 	.front-page-1 h1 {
-		font-size: 2.2em;
+		font-size: 2.8em;
 	}
 	.portfolio-item {
 		width: -webkit-calc(50% - 1rem);
@@ -3987,7 +3993,7 @@ p.demo_store {
 		margin-right: auto;
 	}
 	.front-page-1 h1 {
-		font-size: 2.7em;
+		font-size: 3.5em;
 	}
 	.front-page-2 p {
 		padding: 0 1em;
@@ -4133,7 +4139,7 @@ p.demo_store {
 		position: absolute;
 		width: 18rem;
 		z-index: 99;
-		border-radius: 4px;
+		border-radius: 2px;
 		background-color: #ffffff;
 		padding: 0.618em 0.5em;
 		margin: 0;
@@ -4306,7 +4312,7 @@ p.demo_store {
 		height: 80vh;
 	}
 	.front-page-1 h1 {
-		font-size: 3.5em;
+		font-size: 4.2em;
 	}
 	.icons span {
 		width: 25%;

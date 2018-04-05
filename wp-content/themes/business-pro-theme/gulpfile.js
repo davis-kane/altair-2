@@ -342,7 +342,7 @@ gulp.task('watch', function () {
 	// HTTPS.
 	browsersync({
 		proxy: 'localhost:8888',
-		port: 5000,
+		port: 3000,
 		notify: false,
 		open: 'external',
 	});

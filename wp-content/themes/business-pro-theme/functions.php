@@ -264,3 +264,10 @@ function sp_footer_creds_filter( $creds ) {
 
 	return $creds;
 }
+
+//Change search form text
+
+function themeprefix_search_button_text( $text ) {
+return ( 'Search...');
+}
+add_filter( 'genesis_search_text', 'themeprefix_search_button_text' );
