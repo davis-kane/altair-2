@@ -1122,6 +1122,7 @@ th {
 	display: block;
 	position: absolute;
 	font-family: 'Fontawesome';
+	color: #dcdcdc;
 	right: 12px;
 	right: 1.2rem;
 	top: 5px;
@@ -1133,6 +1134,22 @@ th {
 
 .search-form input[type='search'] {
 	width: 100%;
+}
+
+.search-form input[type='search']::-webkit-input-placeholder {
+	color: #dcdcdc;
+}
+
+.search-form input[type='search']::-moz-placeholder {
+	color: #dcdcdc;
+}
+
+.search-form input[type='search']:-ms-input-placeholder {
+	color: #dcdcdc;
+}
+
+.search-form input[type='search']::placeholder {
+	color: #dcdcdc;
 }
 
 .search-form input[type='submit'] {
