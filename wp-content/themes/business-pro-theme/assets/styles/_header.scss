@@ -52,6 +52,12 @@
     flex: 1;
     padding: 2rem 0;
     max-width: 15rem;
+    @include breakpoint(md) {
+      margin: 0;
+  		-webkit-box-flex: initial;
+  			-ms-flex: initial;
+  				flex: initial;
+    }
     .wp-custom-logo & {
         padding: 1rem 0;
         @include breakpoint(lg) {

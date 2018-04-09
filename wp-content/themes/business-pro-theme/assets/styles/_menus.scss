@@ -220,6 +220,10 @@
         padding: 0;
         overflow: visible;
         -webkit-overflow-scrolling: initial;
+        -webkit-box-flex: 1;
+          -ms-flex: 1;
+          flex: 1;
+        margin-left: 80px;
     }
     &.visible {
         display: block;
@@ -254,6 +258,9 @@
             flex-direction: row;
             justify-content: flex-start;
             padding: 0;
+            -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                justify-content: flex-start;
         }
     }
 }
