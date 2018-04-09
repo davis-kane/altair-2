@@ -52,10 +52,10 @@
             margin-right: auto;
         }
         &:first-of-type {
-            padding-top: 5vh;
+            padding-top: 7vh;
         }
         .widget-wrap {
-          background-color: rgba(35,44,57, .8);
+          background-color: $overlay;
           padding: 30px;
           box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.22);
             p {
@@ -73,10 +73,10 @@
             font-size: 2.8em;
         }
         @include breakpoint(sm) {
-            font-size: 3.5em;
+            font-size: 2.5em;
         }
         @include breakpoint(xl) {
-            font-size: 4.2em;
+            font-size: 2.3em;
         }
     }
 }

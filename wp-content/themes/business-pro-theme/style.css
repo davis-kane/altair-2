@@ -2752,11 +2752,11 @@ p.demo_store {
 }
 
 .front-page-1 .widget:first-of-type {
-	padding-top: 5vh;
+	padding-top: 7vh;
 }
 
 .front-page-1 .widget .widget-wrap {
-	background-color: rgba(35, 44, 57, 0.8);
+	background-color: rgba(35, 44, 57, 0.9);
 	padding: 30px;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.22);
 }
@@ -3992,7 +3992,7 @@ p.demo_store {
 		margin-right: auto;
 	}
 	.front-page-1 h1 {
-		font-size: 3.5em;
+		font-size: 2.5em;
 	}
 	.front-page-2 p {
 		padding: 0 1em;
@@ -4311,7 +4311,7 @@ p.demo_store {
 		height: 55vh;
 	}
 	.front-page-1 h1 {
-		font-size: 4.2em;
+		font-size: 2.3em;
 	}
 	.icons span {
 		width: 25%;
