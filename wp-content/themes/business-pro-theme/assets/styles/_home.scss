@@ -28,7 +28,7 @@
     background-size: cover !important;
     background-position: center !important;
     padding: 0;
-    height: 90vh;
+    height: 50vh;
     position: relative;
     color: $white;
     overflow: hidden;
@@ -39,7 +39,7 @@
     align-content: center;
     @include clearfix;
     @include breakpoint(xl) {
-        height: 80vh;
+        height: 55vh;
     }
     .wrap {
         position: relative;
