@@ -33,7 +33,7 @@
         flex-wrap: wrap;
         @include transition;
         @include breakpoint(md) {
-            padding: 1rem 0;
+            padding: .5rem 0;
             flex-wrap: nowrap;
             position: relative;
         }

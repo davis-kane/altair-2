@@ -1124,8 +1124,8 @@ th {
 	font-family: 'Fontawesome';
 	right: 12px;
 	right: 1.2rem;
-	top: 12px;
-	top: 1.2rem;
+	top: 5px;
+	top: 0.5rem;
 	font-size: 20px;
 	font-size: 2rem;
 	pointer-events: none;
@@ -4085,7 +4085,7 @@ p.demo_store {
 		padding: 0;
 	}
 	.site-header > .wrap {
-		padding: 1rem 0;
+		padding: 0.5rem 0;
 		-webkit-flex-wrap: nowrap;
 		    -ms-flex-wrap: nowrap;
 		        flex-wrap: nowrap;
