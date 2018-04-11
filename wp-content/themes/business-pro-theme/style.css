@@ -708,6 +708,7 @@ h2 {
 
 h3 {
 	font-size: 1.3em;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -2598,7 +2599,11 @@ div.lSSlideOuter ul.testimonials-list li {
 
 /* ## Business Profile
 --------------------------------------------- */
-.hero-section .bp-contact-card {
+.bp-contact-card > div {
+	font-size: 0.8em;
+}
+
+.hero-section .bp-contact-card > div {
 	text-align: center;
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -2613,56 +2618,56 @@ div.lSSlideOuter ul.testimonials-list li {
 	        justify-content: center;
 }
 
-.hero-section .bp-contact-card > div {
+.hero-section .bp-contact-card > div > div {
 	margin: 2em 1em 0;
 	width: 100%;
 	text-align: center;
 }
 
-.hero-section .bp-contact-card a {
+.hero-section .bp-contact-card > div a {
 	color: #f0f1f2;
 	text-decoration: none;
 }
 
-.bp-contact-card .bp-directions,
-.bp-contact-card .bp-phone,
-.bp-contact-card .bp-contact,
-.bp-contact-card .bp-booking,
-.bp-contact-card .bp-opening-hours-brief,
-.bp-contact-card .bp-opening-hours .bp-title {
+.bp-contact-card > div .bp-directions,
+.bp-contact-card > div .bp-phone,
+.bp-contact-card > div .bp-contact,
+.bp-contact-card > div .bp-booking,
+.bp-contact-card > div .bp-opening-hours-brief,
+.bp-contact-card > div .bp-opening-hours .bp-title {
 	text-align: left;
 }
 
-.bp-contact-card .bp-directions:before,
-.bp-contact-card .bp-phone:before,
-.bp-contact-card .bp-contact:before,
-.bp-contact-card .bp-booking:before,
-.bp-contact-card .bp-opening-hours-brief:before,
-.bp-contact-card .bp-opening-hours .bp-title:before {
+.bp-contact-card > div .bp-directions:before,
+.bp-contact-card > div .bp-phone:before,
+.bp-contact-card > div .bp-contact:before,
+.bp-contact-card > div .bp-booking:before,
+.bp-contact-card > div .bp-opening-hours-brief:before,
+.bp-contact-card > div .bp-opening-hours .bp-title:before {
 	font-family: 'Fontawesome';
 	width: 1em;
 	line-height: 0.9;
 }
 
-.bp-contact-card .bp-opening-hours .bp-title {
+.bp-contact-card > div .bp-opening-hours .bp-title {
 	margin-bottom: 10px;
 	margin-bottom: 1rem;
 }
 
-.bp-contact-card .bp-directions:before {
+.bp-contact-card > div .bp-directions:before {
 	content: '\f27d';
 }
 
-.bp-contact-card .bp-phone:before {
+.bp-contact-card > div .bp-phone:before {
 	content: '\f2b3';
 }
 
-.bp-contact-card .bp-contact:before {
+.bp-contact-card > div .bp-contact:before {
 	content: '\f1c6';
 }
 
-.bp-contact-card .bp-opening-hours-brief:before,
-.bp-contact-card .bp-opening-hours .bp-title:before {
+.bp-contact-card > div .bp-opening-hours-brief:before,
+.bp-contact-card > div .bp-opening-hours .bp-title:before {
 	content: '\f18f';
 }
 
@@ -2834,6 +2839,7 @@ p.demo_store {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	width: 60%;
 }
 
 .front-page-3 .widget_custom_html:first-of-type hr {
@@ -3127,10 +3133,6 @@ p.demo_store {
 
 .front-page-5 .widget_custom_html:first-of-type p {
 	color: #647585;
-}
-
-.front-page-5 .widget_custom_html:first-of-type h3 {
-	padding-bottom: 50px;
 }
 
 .front-page-5 .widget_custom_html:nth-of-type(2) {
@@ -3798,7 +3800,7 @@ p.demo_store {
 		top: 42px;
 	}
 	.front-page-1 h1 {
-		font-size: 2.8em;
+		font-size: 2.3em;
 	}
 	.portfolio-item {
 		width: -webkit-calc(50% - 1rem);
@@ -3997,14 +3999,14 @@ p.demo_store {
 	.before-footer input[type='submit'].alignright {
 		float: right;
 	}
-	.hero-section .bp-contact-card > div {
+	.hero-section .bp-contact-card > div > div {
 		width: auto;
 	}
 	.woocommerce-demo-store .page-header {
 		padding-top: 24rem;
 	}
 	.front-page-1 .widget {
-		max-width: 512px;
+		max-width: 450px;
 		margin-left: 10vh;
 		margin-right: auto;
 	}
@@ -4282,7 +4284,7 @@ p.demo_store {
 		padding: 12rem 0;
 	}
 	.front-page-4 {
-		padding: 20rem 0;
+		padding: 10rem 0;
 	}
 	.front-page-4 .widget {
 		margin: 0 auto;
@@ -4338,10 +4340,10 @@ p.demo_store {
 		width: 50%;
 	}
 	.front-page-1 {
-		height: 55vh;
+		height: 60vh;
 	}
 	.front-page-1 h1 {
-		font-size: 2.3em;
+		font-size: 2.8em;
 	}
 	.icons span {
 		width: 25%;
