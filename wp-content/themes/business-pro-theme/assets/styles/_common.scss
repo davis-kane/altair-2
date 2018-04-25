@@ -56,13 +56,17 @@
         display: block;
         position: absolute;
         font-family: 'Fontawesome';
+        color: #dcdcdc;
         right: 1.2rem;
-        top: 1.2rem;
+        top: .5rem;
         font-size: 2rem;
         pointer-events: none;
     }
     input[type="search"] {
         width: 100%;
+        &::placeholder {
+          color: #dcdcdc;
+        }
     }
     input[type="submit"] {
         display: none;

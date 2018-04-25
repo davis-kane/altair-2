@@ -8,6 +8,7 @@
     @include transition;
     .has-fixed-header & {
         position: fixed;
+        background-color: rgba($header,0.9);
         &.shrink {
             background-color: $dark;
             box-shadow: 0 0 2rem rgba($dark,0.2);
@@ -32,7 +33,7 @@
         flex-wrap: wrap;
         @include transition;
         @include breakpoint(md) {
-            padding: 1rem 0;
+            padding: .5rem 0;
             flex-wrap: nowrap;
             position: relative;
         }
@@ -51,6 +52,12 @@
     flex: 1;
     padding: 2rem 0;
     max-width: 15rem;
+    @include breakpoint(md) {
+      margin: 0;
+  		-webkit-box-flex: initial;
+  			-ms-flex: initial;
+  				flex: initial;
+    }
     .wp-custom-logo & {
         padding: 1rem 0;
         @include breakpoint(lg) {

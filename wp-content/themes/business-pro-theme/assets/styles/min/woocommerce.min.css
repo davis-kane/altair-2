@@ -2,7 +2,7 @@
 -----------------------------------------------------------------------*/
 /**
  * ### Breakpoints
- * 
+ *
  * Based on the most common 16:9 screen resolutions.
  * @link https://pacoup.com/2011/06/12/list-of-true-169-resolutions/
  */
@@ -46,7 +46,7 @@
 .woocommerce span.onsale {
 	position: absolute;
 	background-color: #232c39;
-	border-radius: 4px;
+	border-radius: 2px;
 	font-weight: 400;
 	font-size: 22.4px;
 	font-size: 1.4rem;
@@ -73,7 +73,7 @@
 	left: 0.1em;
 	top: -webkit-calc(2em - 0.38em);
 	top:         calc(2em - 0.38em);
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .woocommerce .woocommerce-LoopProduct-link {
@@ -102,7 +102,7 @@
 }
 
 .cart-count {
-	font-family: 'Hind', Helvetica, Arial, sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 19.2px;
 	font-size: 1.2rem;
 	font-weight: 400;
@@ -219,7 +219,7 @@
 
 .woocommerce ul.products li.product img {
 	margin-bottom: 0 !important;
-	border-radius: 4px 4px 0 0;
+	border-radius: 2px 2px 0 0;
 	-webkit-transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 	        transition: all 0.75s cubic-bezier(0, 1, 0.5, 1);
 }
@@ -294,7 +294,7 @@
 
 .woocommerce .woocommerce-pagination .page-numbers {
 	border: none;
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 24px;
 	font-size: 1.5rem;
 }
@@ -311,7 +311,7 @@
 	padding: 11.2px;
 	padding: 0.7rem;
 	text-decoration: none;
-	border-radius: 4px;
+	border-radius: 2px;
 	margin: 0 0.1em;
 	width: 48px;
 	width: 3rem;
@@ -346,7 +346,7 @@
 
 .woocommerce div.product p.price,
 .woocommerce div.product span.price {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
 	margin-bottom: 16px;
 	margin-bottom: 1rem;
@@ -408,7 +408,7 @@
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
 	background-color: #f6f7f8;
-	border-radius: 4px;
+	border-radius: 2px;
 	padding: 0;
 }
 
@@ -560,7 +560,7 @@
 .woocommerce-checkout #payment,
 #add_payment_method #payment {
 	background-color: #ffffff;
-	border-radius: 4px;
+	border-radius: 2px;
 	border: 2px solid #f0f1f2;
 	padding: 0;
 }
@@ -604,7 +604,7 @@
 #add_payment_method #payment div.payment_box {
 	background-color: #f6f7f8;
 	border: 2px solid #f0f1f2;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .woocommerce-cart #payment div.payment_box::before,
@@ -624,7 +624,7 @@
 .woocommerce table.shop_table td {
 	border-width: 2px;
 	border-color: #f0f1f2;
-	border-radius: 4px;
+	border-radius: 2px;
 	line-height: 1.75;
 	word-break: normal;
 }
@@ -697,7 +697,7 @@
 .woocommerce #respond input#submit {
 	background: #fb2056;
 	border: 0;
-	border-radius: 4px;
+	border-radius: 2px;
 	color: #ffffff;
 	cursor: pointer;
 	font-weight: 600;
@@ -804,7 +804,7 @@
 .woocommerce form .form-row.woocommerce-validated select,
 .woocommerce form .form-row.woocommerce-validated .select2-container {
 	border-color: #f0f1f2;
-	border-radius: 4px;
+	border-radius: 2px;
 }
 
 .woocommerce form.checkout_coupon:focus,
@@ -869,7 +869,7 @@
 
 .woocommerce-MyAccount-navigation {
 	border: 2px solid #f0f1f2;
-	border-radius: 4px;
+	border-radius: 2px;
 	padding: 0;
 	margin-bottom: 40px;
 }
@@ -900,7 +900,7 @@
 	text-decoration: none;
 	font-size: 22.4px;
 	font-size: 1.4rem;
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .content-sidebar.woocommerce-account .woocommerce-MyAccount-navigation,
@@ -963,12 +963,12 @@
 
 .woocommerce #reviews #comments ol.commentlist li .comment-text {
 	border-color: transparent;
-	border-radius: 4px;
+	border-radius: 2px;
 	padding: 0;
 }
 
 .woocommerce .comment-reply-title {
-	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	font-size: 32px;
 	font-size: 2rem;
 	padding: 0 0 1em;

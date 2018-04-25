@@ -99,6 +99,8 @@ div.lSSlideOuter {
 --------------------------------------------- */
 
 .bp-contact-card {
+    >div {
+        font-size: .8em;
     .hero-section & {
         text-align: center;
         display: flex;
@@ -154,6 +156,7 @@ div.lSSlideOuter {
             content: "\f18f";
         }
     }
+  }
 }
 
 /* ## Ninja Forms

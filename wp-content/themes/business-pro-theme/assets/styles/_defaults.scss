@@ -97,7 +97,7 @@ h4,
 h5,
 h6 {
     font-family: $font-heading;
-    font-weight: $bolder;
+    font-weight: $bold;
     line-height: 1.2;
     margin: 0 0 0.382em;
 }
@@ -119,6 +119,7 @@ h2 {
 
 h3 {
     font-size: 1.3em;
+    text-transform: uppercase;
     @include breakpoint(sm) {
         font-size: 1.4em;
     }
@@ -177,6 +178,12 @@ input[type="radio"] {
 
 input[type="search"] {
     -webkit-appearance: none;
+    padding: 0.2em .5em;
+    background-color: rgba(255,255,255, 0.4);
+    color: #000;
+    list-style: 1.8;
+    border: 1px rgba(255, 255, 255, 0.2) solid;
+    font-size: 0.7em;
 }
 
 ::-moz-placeholder {

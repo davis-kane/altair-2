@@ -27,6 +27,7 @@ $border:  #f0f1f2;
 $light:   #f6f7f8;
 $white:   #ffffff;
 $overlay: rgba(35, 44, 57, 0.9);
+$header: #232c39;
 
 /* ### Typography */
 
@@ -38,7 +39,7 @@ $bold:    	   600;
 
 /* ### Other */
 
-$site-radius:     4px;
+$site-radius:     2px;
 $site-border:     2px solid $border;
 $site-transition: 0.75s cubic-bezier(0, 1, 0.5, 1);
 

@@ -190,7 +190,7 @@ function business_scripts_styles() {
 	wp_dequeue_style( 'simple-social-icons-font' );
 
 	// Enqueue Google fonts.
--	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato|Oswald', array(), CHILD_THEME_VERSION );
+-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:300,400,700|Oswald:400,600', array(), CHILD_THEME_VERSION );
 
 	// Get Icon Widget plugin settings.
 	$icon_settings = get_option( 'icon_widget_settings' );
@@ -256,3 +256,18 @@ genesis_register_sidebar( array(
 	'name'          => __( 'Front Page 7', 'business-pro-theme' ),
 	'description'   => __( 'Front page widget - 7', 'business-pro-theme' ),
 ) );
+
+// Change the footer text
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_filter' );
+function sp_footer_creds_filter( $creds ) {
+	$creds = '[footer_copyright] | <a href="'.get_bloginfo( 'url' ).'">'.get_bloginfo( 'name' ).'</a>';
+
+	return $creds;
+}
+
+//Change search form text
+
+function themeprefix_search_button_text( $text ) {
+return ( 'Search...');
+}
+add_filter( 'genesis_search_text', 'themeprefix_search_button_text' );
