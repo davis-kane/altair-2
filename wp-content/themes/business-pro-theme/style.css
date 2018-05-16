@@ -3800,7 +3800,7 @@ p.demo_store {
 		top: 42px;
 	}
 	.front-page-1 h1 {
-		font-size: 2.3em;
+		font-size: 2em;
 	}
 	.portfolio-item {
 		width: -webkit-calc(50% - 1rem);
@@ -4011,7 +4011,7 @@ p.demo_store {
 		margin-right: auto;
 	}
 	.front-page-1 h1 {
-		font-size: 2.5em;
+		font-size: 2.2em;
 	}
 	.front-page-2 p {
 		padding: 0 1em;
@@ -4281,7 +4281,7 @@ p.demo_store {
 	.front-page-4,
 	.front-page-5,
 	.front-page-6 {
-		padding: 12rem 0;
+		padding: 10rem 0;
 	}
 	.front-page-4 {
 		padding: 10rem 0;
@@ -4343,7 +4343,7 @@ p.demo_store {
 		height: 60vh;
 	}
 	.front-page-1 h1 {
-		font-size: 2.8em;
+		font-size: 2.5em;
 	}
 	.icons span {
 		width: 25%;
