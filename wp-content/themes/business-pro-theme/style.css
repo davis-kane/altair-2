@@ -2716,6 +2716,12 @@ p.demo_store {
 	top: 64px;
 }
 
+.woocommerce div.product .summary p {
+	margin-bottom: 15px;
+	margin-bottom: 1.5rem;
+	font-weight: 600;
+}
+
 /* ## Front Page
 --------------------------------------------- */
 .home .site-inner {

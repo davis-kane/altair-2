@@ -207,3 +207,14 @@ p.demo_store {
         }
     }
 }
+
+.woocommerce {
+	div.product {
+		.summary {
+			p {
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+			}
+		}
+	}
+}
